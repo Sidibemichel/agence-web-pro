@@ -5,18 +5,56 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Agence Web Pro | Sidibé Michel - Sites 300€</title>
   <style>
-    body {font-family: Arial, sans-serif; margin:0; background:#f8fafc; color:#1e293b;}
-    header {background:linear-gradient(135deg, #1e3a8a, #3b82f6); color:white; text-align:center; padding:60px 20px;}
-    h1 {font-size:32px; margin-bottom:10px;}
-    .btn {background:#25D366; color:white; padding:15px 30px; border-radius:10px; text-decoration:none; font-size:18px; font-weight:bold; display:inline-block; margin-top:20px;}
-    .btn:hover {opacity:0.9;}
-    section {padding:50px 20px; max-width:900px; margin:auto; text-align:center;}
-    .services {display:flex; gap:20px; flex-wrap:wrap; justify-content:center;}
-    .card {background:white; padding:25px; border-radius:12px; width:250px; box-shadow:0 4px 10px rgba(0,0,0,0.1);}
-    .price {color:#22c55e; font-size:24px; font-weight:bold;}
-    footer {background:#1e293b; color:white; text-align:center; padding:20px;}
-  </style>
-</head>
+  body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    background:#f8fafc;
+    color:#1e293b;
+  }
+  .en-tete{
+    background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+    color:white;
+    text-align:center;
+    padding:100px 20px;
+  }
+  h1{font-size:32px; margin-bottom:10px;}
+  .bouton{
+    display:inline-block;
+    background:#25D366;
+    color:white;
+    padding:15px 30px;
+    border-radius:10px;
+    text-decoration:none;
+    font-weight:bold;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .bouton:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+  }
+  .bouton:active{
+    transform: scale(0.95); /* animation au clic */
+  }
+  section{padding:50px 20px; max-width:900px; margin:auto; text-align:center;}
+  .services{display:flex; gap:20px; flex-wrap:wrap; justify-content:center;}
+  .carte{
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    width:250px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease;
+  }
+  .carte:hover{ transform: translateY(-5px); }
+  .prix{color:#22c55e; font-size:24px; font-weight:bold;}
+  footer{
+    background:#1e293b; 
+    color:white; 
+    text-align:center; 
+    padding:20px;
+  }
+  footer a{color:#ccc; text-decoration:none; margin:0 10px;}
+</style>
 <body>
 
   <header>
